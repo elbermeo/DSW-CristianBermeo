@@ -1,0 +1,30 @@
+.encabezado{
+    background-color: #905E96;
+    padding: 30px;
+}   
+.navegacion{
+    background-color: #D58BDD;
+    padding: 30px;
+
+}
+.contenedor{
+    background-color: blueviolet;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+
+}
+.principal{
+    background-color: #FF99D7;
+    padding: 30px;
+    grid-column: 1/4;
+}
+.lateral{
+    background-color: #FFD372;
+    padding: 30px;
+    grid-column: 4/5;
+}
+.pie{
+    background-color: #FFD372;
+    padding: 30px;
+}
